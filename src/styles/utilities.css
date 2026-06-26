@@ -1,0 +1,23 @@
+@utility container-buildora {
+  @apply mx-auto max-w-7xl px-6 lg:px-8;
+}
+
+@utility section {
+  @apply py-24 lg:py-32;
+}
+
+@utility hero-title {
+  @apply text-5xl lg:text-7xl font-bold tracking-tight;
+}
+
+@utility hero-description {
+  @apply text-lg text-muted-foreground leading-8 max-w-2xl;
+}
+
+@utility glass-panel {
+  @apply rounded-3xl border border-border bg-card/70 backdrop-blur-xl;
+}
+
+@utility editor-panel {
+  @apply rounded-3xl border border-border bg-card shadow-xl;
+}

@@ -8,26 +8,27 @@
 
 
 ## Epic 2 — Project Architecture
- Create project folder structure
- Create docs/ folder
- Create PROJECT_VISION.md
- Create ARCHITECTURE.md
- Create ROADMAP.md
+ <!-- Create project folder structure -->
+ <!-- Create docs/ folder -->
+ <!-- Create PROJECT_VISION.md -->
+ <!-- Create ARCHITECTURE.md -->
+ Create ROCollect 20 inspiration screenshotsADMAP.md
  Create DECISIONS.md
 
 
 ## Epic 3 — Branding
- Finalize the name (Buildora ✅)
- Choose primary color palette
- Choose typography
- Define spacing scale
- Define border radius
- Choose icon style
- Create a temporary logo
+ <!-- Finalize the name (Buildora ✅) -->
+ <!-- Choose primary color palette -->
+ <!-- Choose typography -->
+ <!-- Define spacing scale -->
+ <!-- Define border radius -->
+ <!-- Choose icon style -->
+ <!-- Create a temporary logo -->
 
 
 
 
+<!-- Canceled -->
 ## Epic 4 — Design Research
  Collect 20 inspiration screenshots
  Analyze PeachWeb
@@ -37,14 +38,12 @@
  Write down what makes each feel premium
 
 
-
-
 ## Epic 5 — Design Tokens
- Create color tokens
+ <!-- Create color tokens
  Create typography tokens
  Create spacing tokens
  Create radius tokens
- Create shadow tokens
+ Create shadow tokens -->
 
 
 

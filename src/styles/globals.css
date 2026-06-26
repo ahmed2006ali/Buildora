@@ -1,0 +1,59 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@import "./theme.css";
+@import "./utilities.css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Buildora */
+
+  --background: oklch(0.145 0.005 285);
+  --foreground: oklch(0.985 0 0);
+
+  --card: oklch(0.185 0.006 285);
+  --card-foreground: oklch(0.985 0 0);
+
+  --popover: var(--card);
+  --popover-foreground: var(--foreground);
+
+  --primary: oklch(0.89 0.19 116);
+  --primary-foreground: oklch(0.18 0 0);
+
+  --secondary: oklch(0.22 0.008 285);
+  --secondary-foreground: var(--foreground);
+
+  --muted: oklch(0.22 0.008 285);
+  --muted-foreground: oklch(0.72 0.01 285);
+
+  --accent: oklch(0.63 0.22 285);
+  --accent-foreground: white;
+
+  --border: oklch(0.28 0.01 285);
+
+  --input: oklch(0.24 0.01 285);
+
+  --ring: var(--primary);
+
+  --destructive: oklch(0.68 0.23 28);
+
+  --radius: 1rem;
+}
+
+@layer base {
+
+  *{
+    @apply border-border outline-ring/50;
+  }
+
+  html{
+    @apply font-sans scroll-smooth;
+  }
+
+  body{
+    @apply bg-background text-foreground antialiased;
+  }
+
+}
