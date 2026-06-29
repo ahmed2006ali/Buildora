@@ -43,6 +43,10 @@
   --destructive: oklch(0.68 0.23 28);
 
   --radius: 1rem;
+
+  --reddot:#F54A4E;
+  --yellowdot:#F4BD04;
+  --greendot:#52CB41;
 }
 
 @layer base {
@@ -55,13 +59,17 @@
     @apply font-sans scroll-smooth;
   }
 
-body {
-  font-family: var(--font-geist-sans);
-}
 
-  body{
-    @apply bg-background text-foreground antialiased;
-  }
+  body {
+  font-family:
+    var(--font-inter),
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  @apply bg-background text-foreground antialiased;
+}
 
 }
 
