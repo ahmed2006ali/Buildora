@@ -1,5 +1,5 @@
 import Header from "@/components/marketing/header/Header";
-import Hero from "@/components/marketing/hero/Hero";
+import Hero from "@/components/marketing/hero/HeroDetails/Hero";
 
 export default function HomePage() {
     return(
